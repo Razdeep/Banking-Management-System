@@ -75,13 +75,13 @@ body{
   border-radius: 30px;
   background-color: rgb(71, 71, 71);
   color: #eee;
-  transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear,font-size 0.2s ease-in-out,padding 0.2s ease-in-out;
 }
 .form-button:hover{
   background-color: rgb(97, 97, 97);
-  
-  font-size: 14px;
-  transition: background-color 0.2s linear,font-size 0.2s ease-in-out;
+  padding: 9px;
+  font-size: 15px;
+  transition: background-color 0.2s linear,font-size 0.2s ease-in-out,padding 0.2s ease-in-out;
 }
 .btn-group{
   display: block;
@@ -89,4 +89,3 @@ body{
   margin: 10px auto;
   /* background-color: rgb(216, 203, 28); */
 }
-
