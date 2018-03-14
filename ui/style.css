@@ -73,4 +73,20 @@ body{
 .form-button{
   padding: 10px;
   border-radius: 30px;
+  background-color: rgb(71, 71, 71);
+  color: #eee;
+  transition: background-color 0.2s linear;
 }
+.form-button:hover{
+  background-color: rgb(97, 97, 97);
+  
+  font-size: 14px;
+  transition: background-color 0.2s linear,font-size 0.2s ease-in-out;
+}
+.btn-group{
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+  /* background-color: rgb(216, 203, 28); */
+}
+
