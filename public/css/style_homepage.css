@@ -19,10 +19,18 @@ body{
       /*background-color: #efe;*/
 }
 .banner{
+    z-index: 9999;
     width: 100%;
     height: 100px;
     background-color: rgba(0,0,0,.7);
     position: fixed;
+}
+.logo{
+    float: left;
+    background-image: url('../icons/icon.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
 }
 .search-container{
     float: left;
@@ -45,9 +53,9 @@ body{
     display: block;
     text-decoration: none;
     color: rgb(184, 184, 184);
-    transition: color .3s ease-in-out;
+    transition: color .15s ease-in-out;
 }
 .menuItem >a:hover{
     color: #fff;
-    transition: color .3s ease-in-out;
+    transition: color .15s ease-in-out;
 }
