@@ -1,0 +1,175 @@
+/*Banner Start*/
+.banner{
+    z-index: 9999;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+}
+.logo{
+    margin-left: 30px;
+    float: left;
+    background-image: url('../icons/icon.png');
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+.search-container{
+    float: left;
+    padding: 1em;
+}
+
+.menu-container{
+    float: right;
+}
+
+.menuItem{
+    /* float: right; */
+    outline: none;
+    display: inline-block;
+    padding: 1em;
+    font-size: 1.5em;
+}
+/* link inside the menu bar */
+.menuItem >a {
+    display: block;
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    transition: color .15s ease-in-out;
+}
+.menuItem >a:hover{
+    color: #fff;
+    transition: color .15s ease-in-out;
+}
+.search-box-input{
+    width: 400px;
+    font-size: inherit;
+    border-radius: 1em 0em 0em 1em;
+    border: .1em solid #aaa;
+    background-color: rgba(129, 129, 129, 0.2);
+    padding: 5px 20px;
+    outline: 0;
+    margin: 0px;
+    transition: background-color .2s ease-in-out;
+  }
+  .search-box-input:hover{
+    border: .1em solid rgb(13, 58, 182);
+  }
+  .search-box-input:focus{
+    background-color: #fff;
+    transition: background-color .2s ease-in-out;
+  }
+  .search-box-wrapper{
+    float: left;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-left:  100px;
+  }
+  .search-button{
+    border-left: 0;
+    border: 1px solid #aaa;
+    outline: 0;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0em 1em 1em 0em;
+    font-size: inherit;
+    padding: 5px 10px 5px 5px;
+    margin: 0px;
+    transition: background-color .2s ease-in-out;
+  }
+  .search-button:hover,
+  .search-button:focus{
+    background-color: #22730C;
+  }
+  
+/* Banner ends */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/netbanking_back.jpeg');
+    /* background-color: yellow; */
+    /* background-color: rgb(91, 176, 245); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    /* position: relative; */
+    padding: 20px;
+    margin: 0px auto;
+    width: 600px;
+    border: 3px solid #222;
+    height: 500px;
+    background-color: rgba(0, 0, 0,.7); 
+    /* rgba(,f,f,.8); */
+    border-radius: 80px 0px 80px 0px;
+}
+.div-group{
+    border: 1px solid #fff;
+    padding: 20px;
+}
+.current-ac{
+    /* margin-left: 10px; */
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.savings-ac{
+    margin-left: 10px;
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.credit-card{
+    margin-left: 10px;
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.view_txn_btn{
+    padding: 8px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    background-color: teal;
+    color: #ddd;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out;
+}
+.view_txn_btn:hover{
+    color: #111;
+    background-color: rgb(0, 255, 55);
+    transition: background-color .2s ease-in-out,color .2s ease-in-out;
+}
+h1{
+    text-align: center;
+    color: #ddd;
+}
+h2{
+    color: #ddd;
+}
+h3{
+    color: #ddd;
+    margin: 0;
+    display: block;
+    padding: 10px;
+    background-color: teal;
+    font-size:14px;
+    text-align: center;
+}
+h4{
+    color: #ddd;
+    padding: 0;
+    margin: 10px;
+}
