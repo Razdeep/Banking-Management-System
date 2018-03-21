@@ -109,11 +109,16 @@ body{
     border-radius: 80px 0px 80px 0px;
 }
 .div-group{
-    border: 1px solid #fff;
+    border: 2px solid #fff;
+    background-color: #111;
     padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 .current-ac{
     /* margin-left: 10px; */
+    background-color: #ddd;
     width: 30%;
     display: inline-block;
     border: 2px solid #ddd;
@@ -121,6 +126,7 @@ body{
     overflow: hidden;
 }
 .savings-ac{
+    background-color: #ddd;
     margin-left: 10px;
     width: 30%;
     display: inline-block;
@@ -129,6 +135,7 @@ body{
     overflow: hidden;
 }
 .credit-card{
+    background-color: #ddd;
     margin-left: 10px;
     width: 30%;
     display: inline-block;
@@ -169,7 +176,7 @@ h3{
     text-align: center;
 }
 h4{
-    color: #ddd;
+    color: #222;
     padding: 0;
     margin: 10px;
 }
