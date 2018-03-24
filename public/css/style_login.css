@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-image: url('../images/login_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    postion: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+}
+.container{
+    /* position: absolute; */
+    /* left:150px; */
+    width: 800px;
+    height: 99%;
+    /* @TODO set the height to 100% 
+        Solution: Change position to absolute*/
+    margin: 0px auto;
+    /* background-color: sandybrown; */
+}
+.box{
+    border: 4px solid #fff;
+    border-radius: 50px;
+    height: 350px;
+    padding: 20px;
+    margin: 0px auto;
+    width: 300px;
+    background-color: rgba(255,255,255,0.5);
+}
+.form-heading{
+    margin: 0px 50px;
+    font-size: 40px;
+}
+.form-group{
+    margin: 20px auto;
+    width: 200px;
+    /* background: yellow; */
+}
+.form-text{
+    font-size: 17px;
+    border: 3px solid #222;
+    border-radius: 10px;
+    outline: none;
+    margin: 5px 0px;
+    width: 188px;
+    padding:5px;
+    transition: border .3s ease-out;
+}
+.form-text:hover{
+    border: 3px solid yellow;
+    transition: border .3s ease-out;
+}
+.form-button{
+    /* @TODO make this bold */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 60px;
+    width: 80px;
+    padding: 10px;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: rgb(157, 235, 255);
+    background-color: rgb(32, 7, 139);
+    transition: background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}
+.form-button:hover{
+    
+    background-color:  rgb(31, 110, 212);
+    /* radial-gradient(white,blue,black); */
+    
+    color: #fff;
+    border-color: white;
+    /* rgb(32, 7, 139); */
+    transition: background-color .2s ease-in-out,
+    color .2s ease-in-out,
+    border-color .2s ease-in;
+}
+.form-link-group{
+    background-color: #333;
+    padding: 10px;
+    width: 110px;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.form-link{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ddd;
+    
+}
+.form-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    text-decoration: none;
+    color: yellow;
+    transition: color 1s ease-out;
+}
