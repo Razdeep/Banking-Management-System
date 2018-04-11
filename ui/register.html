@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style_register.css">
   <title>RRC Banking System</title>
+  <script type="text/javascript" src="scripts/register.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
       <button class="search-button">&#128269;</button>
     </div>
     <div class="menu-container">
-      <ul id=#menu>
+      <ul id="menu">
         <li class="menuItem">
           <a href="index.html">Home</a>
         </li>
@@ -66,7 +67,7 @@
               <label for="email" class="form">Email Id</label>
             </td>
             <td>
-              <input type="text" class="form form-text" name="email" placeholder="Enter Your Email ID">
+              <input type="text" class="form form-text" name="email" id="email" placeholder="Enter Your Email ID" onkeypress="validateEmail()">
             </td>
           </tr>
           <tr>

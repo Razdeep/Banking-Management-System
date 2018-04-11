@@ -1,0 +1,62 @@
+@keyframes sliderrc{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+
+#slider{
+    border:0;
+    padding: 0;
+    width:500px;
+    height:200px;
+    overflow: hidden;
+}
+.long{
+    width: 3850px;
+    overflow: hidden;
+}
+#image1{
+    float: left;    
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    width: 1280px;
+    height:200px;
+}
+#image2{
+    float: left;
+    background-image: url('../images/login_back.jpg');
+    background-size: cover;
+    width: 1280px;
+    height:200px;
+}
+#image3{
+    float: left;
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    width: 1280px;
+    height:200px;
+}
