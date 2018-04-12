@@ -17,46 +17,49 @@
     70%{
         left:-200%;
     }
-    75%{
+    /* 75%{
         left:-300%;
     }
     95%{
         left:-300%;
-    }
+    }*/
     100%{
-        left:-400%;
+        left:0;
     }
 }
 
 #slider{
     border:0;
     padding: 0;
-    width:500px;
+    width:1200px;
     height:200px;
     overflow: hidden;
+    border: 3px solid #ddd;
+    border-radius: 5px;
 }
-.long{
+#long{
+    position: relative;
     width: 3850px;
-    overflow: hidden;
+    animation: 10s sliderrc infinite;
 }
 #image1{
     float: left;    
     background-image: url('../images/back.jpg');
     background-size: cover;
-    width: 1280px;
+    width: 1200px;
     height:200px;
 }
 #image2{
     float: left;
     background-image: url('../images/login_back.jpg');
     background-size: cover;
-    width: 1280px;
+    width: 1200px;
     height:200px;
 }
 #image3{
     float: left;
-    background-image: url('../images/back.jpg');
+    background-image: url('../images/netbanking_back.jpeg');
     background-size: cover;
-    width: 1280px;
+    width: 1200px;
     height:200px;
 }

@@ -1,17 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
+<HTML>
+<HEAD>
+<TITLE>Contact Us</title>
+<style>
+body{
+    background-color: #ccc;
+}
+* {
+    box-sizing: border-box;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="css/style_contact.css">
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+ form {
+ width:40%;
+ height:40px;
+ margin:auto;
+ position:relative;
+ }
+   input {
+ width:90%;
+ height: 25px;
+   }
+
+</style>
+<script>
+    function submitForm()
+    {
+        alert('Form Successfully submitted');
+    }
+</script>
 </head>
 
-<body>
-    Development in progress
-    To be designed by Krishan Sharma
-</body>
+<body background="images/contact_back.jpg" height="100%" width="100%" >
 
+<img src="images/contactus.jpg" width="1350" height="300" align="left">
+
+
+<P align="center"><b><i>Contact our branches</p>
+
+ <div class="container">
+  <form>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="europe">Europe</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="button" value="Submit" onclick="submitForm()">
+
+  </form>
+</div> 
+</body>
 </html>
