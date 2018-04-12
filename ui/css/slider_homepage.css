@@ -44,22 +44,23 @@
 }
 #image1{
     float: left;    
-    background-image: url('../images/back.jpg');
+    background-image: url('../images/slider/slider1.jpg');
     background-size: cover;
     width: 1200px;
     height:200px;
 }
 #image2{
     float: left;
-    background-image: url('../images/login_back.jpg');
+    background-image: url('../images/slider/slider2.png');
     background-size: cover;
+    
     width: 1200px;
     height:200px;
 }
 #image3{
     float: left;
-    background-image: url('../images/netbanking_back.jpeg');
-    background-size: cover;
+    background-image: url('../images/slider/slider4.jpg');
+    background-size: contain;
     width: 1200px;
     height:200px;
 }
