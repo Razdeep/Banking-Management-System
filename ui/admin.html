@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style_admin.css">
+    <script type="text/javascript" src="scripts/admin.js"></script>
+    <title>ADMIN</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="logo"></div>
+        <div class="search-box-wrapper">
+            <input type="text" class="search-box-input" placeholder="Looking for anything?">
+            <button class="search-button">&#128269;</button>
+        </div>
+        <div class="menu-container">
+            <ul id="menu">
+            <li class="menuItem">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="menuItem">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="menuItem">
+                <a href="register.html">Register</a>
+            </li>
+            <li class="menuItem">
+                <a href="contact.html">Contact Us</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+              
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="box">
+        <form>
+            <table>
+                <tr>
+                    <td>Account Number</td>
+                    <td><input type="text" name="acno" id="acno"></td>
+                </tr>
+                <tr>
+                    <td>Enter Amount</td>
+                    <td><input type="text" name="amount" id="amount"></td>
+                </tr>
+                <tr>
+                    <td>Transaction Type</td>
+                    <td><select>
+                        <option value="Deposit">Deposit</option>
+                        <option value="Withdraw">Withdraw</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Proceed" onclick="proceed()"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
