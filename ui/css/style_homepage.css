@@ -107,3 +107,37 @@ body{
     background-color: #22730C;
   }
   
+  
+  .features{
+    /* display: inline-block; */
+      margin: auto;
+      margin-top:50px;
+      /* background-color: #ccc; */
+      width:600px;
+      height:100px;
+  }
+  #online-banking, #mobile-banking, #branch-banking{
+      margin-left:10px;
+      border: 2px solid #fff;
+      border-radius: 40px;
+      float: left;
+      width:180px;
+      background: rgba(197, 255, 228, 0.7);
+      height: 180px;
+      overflow: hidden;
+      transition: border-radius .1s ease-in-out;
+  }
+  #online-banking:hover,#mobile-banking:hover,#branch-banking:hover{
+      font-size: 18px;
+      border-radius: 10px;
+      transition: border-radius .2s ease-out,
+      font-size .2s ease-in-out;
+  }
+ 
+  .features .feature-heading{
+      font-weight: bold;
+      text-align: center;
+      padding: 15px;
+      color: #eee;
+      background: blue;
+  }
