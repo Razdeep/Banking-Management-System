@@ -46,6 +46,7 @@
     <div class="box">
       <div class="form-heading">User Registration</div>
       <div class="form-group">
+        <form>
         <table>
           <tr>
             <td>
@@ -68,7 +69,7 @@
               <label for="email" class="form">Email Id</label>
             </td>
             <td>
-              <input type="text" class="form form-text" name="email" id="email" placeholder="Enter Your Email ID" onkeypress="validateEmail()">
+              <input type="text" class="form form-text" name="email" id="email" placeholder="Enter Your Email ID">
             </td>
           </tr>
           <tr>
@@ -82,10 +83,10 @@
 
         </table>
         <div class="btn-group">
-          <button class="form form-button">Submit</button>
+          <button class="form form-button" onclick="showMsg()" type="button">Submit</button>
           <button class="form form-button">Reset</button>
         </div>
-
+      </form>
 
 
       </div>

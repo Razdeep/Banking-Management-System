@@ -1,13 +1,15 @@
 
-function validateEmail()
+function showMsg()
 {
-    // @TODO
-    var email=document.getElementById("email").value;
-    if(email.localeCompare("zzz")==0)
+    var name=document.forms[0].elements[0].value;
+    var aadhar=document.forms[0].elements[1].value;
+    var email=document.forms[0].elements[2].value;
+    var dob=document.forms[0].elements[3].value;
+    if(name==""||aadhar==""||email==""||dob=="")
+    window.alert("All the form elements must be filled properly");
+    else 
     {
-        document.getElementById("email").style.color="green";
-    }
-    else{
-        document.getElementById("email").style.color="black";
+        window.alert("Successfully submitted your form");
+        document.forms[0].reset();
     }
 }
