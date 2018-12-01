@@ -1,0 +1,66 @@
+@keyframes sliderrc{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    /* 75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }*/
+    100%{
+        left:0;
+    }
+}
+
+#slider{
+    border:0;
+    padding: 0;
+    width:1200px;
+    height:200px;
+    overflow: hidden;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+}
+#long{
+    position: relative;
+    width: 3850px;
+    animation: 10s sliderrc infinite;
+}
+#image1{
+    float: left;    
+    background-image: url('../images/slider/slider1.jpg');
+    background-size: cover;
+    width: 1200px;
+    height:200px;
+}
+#image2{
+    float: left;
+    background-image: url('../images/slider/slider2.png');
+    background-size: cover;
+    
+    width: 1200px;
+    height:200px;
+}
+#image3{
+    float: left;
+    background-image: url('../images/slider/slider4.jpg');
+    background-size: contain;
+    width: 1200px;
+    height:200px;
+}

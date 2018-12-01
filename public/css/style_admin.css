@@ -1,69 +1,55 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-image: url('../images/handshake.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.overlay{
-    position: absolute;
-    height: 100%;
+  .banner{
     width: 100%;
-    background-color: rgba(0,0,0,.7);
-}
-.container{
-
-    width: 1200px;
-      height: 100%;
-      margin: 0 auto;
-      /*background-color: #efe;*/
-}
-.banner{
+    height: 100px;
+    background-color: #111;
+  }
+  
+  .banner{
     z-index: 9999;
     width: 100%;
     height: 100px;
     background-color: rgba(0,0,0,.7);
     position: fixed;
-}
-.logo{
+  }
+  .logo{
     margin-left: 30px;
     float: left;
     background-image: url('../icons/icon.png');
     background-size: contain;
     height: 100px;
     width: 100px;
-}
-.search-container{
+  }
+  .search-container{
     float: left;
     padding: 1em;
-}
-
-.menu-container{
+  }
+  
+  .menu-container{
     float: right;
-}
-
-.menuItem{
+  }
+  
+  .menuItem{
     /* float: right; */
     outline: none;
     display: inline-block;
     padding: 1em;
     font-size: 1.5em;
-}
-/* link inside the menu bar */
-.menuItem >a {
+  }
+  /* link inside the menu bar */
+  .menuItem >a {
     display: block;
     text-decoration: none;
     color: rgb(184, 184, 184);
     transition: color .15s ease-in-out;
-}
-.menuItem >a:hover{
+  }
+  .menuItem >a:hover{
     color: #fff;
     transition: color .15s ease-in-out;
-}
-
-
-
-.search-box-input{
+  }
+  
+  
+  
+  .search-box-input{
     width: 400px;
     font-size: inherit;
     border-radius: 1em 0em 0em 1em;
@@ -106,38 +92,48 @@ body{
   .search-button:focus{
     background-color: #22730C;
   }
+
+
   
-  
-  .features{
-    /* display: inline-block; */
-      margin: auto;
-      margin-top:50px;
-      /* background-color: #ccc; */
-      width:600px;
-      height:100px;
-  }
-  #online-banking, #mobile-banking, #branch-banking{
-      margin-left:10px;
-      border: 2px solid #fff;
-      border-radius: 40px;
-      float: left;
-      width:180px;
-      background: rgba(197, 255, 228, 0.7);
-      height: 180px;
-      overflow: hidden;
-      transition: border-radius .1s ease-in-out;
-  }
-  #online-banking:hover,#mobile-banking:hover,#branch-banking:hover{
-      font-size: 18px;
-      border-radius: 10px;
-      transition: border-radius .2s ease-out,
-      font-size .2s ease-in-out;
-  }
- 
-  .features .feature-heading{
-      font-weight: bold;
-      text-align: center;
-      padding: 15px;
-      color: #eee;
-      background: blue;
-  }
+body{
+    background: url('../images/admin_back.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    color:white;
+    font-weight: bold;
+    padding: 50px;
+    height:200px;
+    width:350px;
+    background-color: rgba(147, 255, 201, 0.5);
+    margin: auto;
+    /* margin-top:150px; */
+    border: 2px solid WHITE;
+    border-radius:20px;
+}
+input[type=text]{
+    padding:5px;
+    border-radius: 20px;
+    outline: none;
+
+}
+input[type=button],[type=reset]
+{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid black;
+}
+input[type=button]:hover,[type=reset]:hover
+{
+    background-color: rgb(227, 232, 241);
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid black;
+}
+select{
+    padding: 5px;
+}
