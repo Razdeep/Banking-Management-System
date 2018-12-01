@@ -4,7 +4,7 @@ var logger=require('morgan');
 
 
 var app=express();
-var port=1998;
+var port=process.env.PORT||1998;
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine','ejs');
 app.use(logger('dev'));
